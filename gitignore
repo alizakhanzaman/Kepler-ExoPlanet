@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Logs
+*.log
+
+# Data (download from Kaggle instead)
+cumulative.csv
+dataset/
+data/
+
+# Trained models and generated outputs
+*.pkl
+*.joblib
+candidate_ranking.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
